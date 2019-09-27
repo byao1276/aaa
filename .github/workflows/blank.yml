@@ -10,7 +10,7 @@ jobs:
     - name: Mirror + trigger CI
       uses: ailisp/gitlab-mirror-and-ci-action@master
       with:
-        args: "https://gitlab.com/ailisp/aaa"
+        args: "ailisp/aaa"
       env:
         GITLAB_HOSTNAME: "gitlab.com"
         GITLAB_USERNAME: "ailisp"
